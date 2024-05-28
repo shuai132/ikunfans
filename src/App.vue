@@ -1,16 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h3>Welcome to www.ikunfans.cn</h3>
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img alt="logo" src="./assets/logo.png">
+    <img alt="ikun1" src="./assets/ikun1.jpeg">
+    <img alt="ikun2" src="./assets/ikun2.jpeg">
+    <img alt="ikun3" src="./assets/ikun3.jpeg">
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
 
@@ -22,5 +23,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
 }
 </style>
